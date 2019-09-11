@@ -6,9 +6,7 @@ app = Flask(__name__)
 
 @app.route('/a')
 def index():
-   #a=request.firm[""source"]
-                  #connection setup with server
-                  #[],{}
+ 
    
    return render_template('hello.html',res="a")
 
