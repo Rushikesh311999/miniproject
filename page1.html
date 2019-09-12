@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Traveldetails</title>
+</head>
+
+<body>
+    <center>
+    {% if message %}
+    <p><h1>{{ message }}</h1></p>
+    {% endif %}
+ 
+    <form action="/Input.html" method="post">
+        <p>
+            
+            <label for="src"><b>Source</b></label>
+	    <input type="text" name="src">
+            
+        </p>
+        <p>
+            <label for="dest"><b>Destination</b></label>
+            <input type="text" name="dest">
+        </p>
+	<p>
+            <label for="bgt"><b>Budget</b></label>
+            <input type="text" name="bgt">
+        </p>
+        <p>
+           
+	    
+          <button onclick="myFunction()">Submit</button>
+          <p>Hello. Do you want to view <a href="page2.html">login</a> ?</p>
+
+        </p>
+    </form>
+ </center>
+</body>
+</html>
